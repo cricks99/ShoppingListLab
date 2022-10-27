@@ -1,0 +1,15 @@
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.csproj.AssemblyReference.cache
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.GeneratedMSBuildEditorConfig.editorconfig
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.AssemblyInfoInputs.cache
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.AssemblyInfo.cs
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.csproj.CoreCompileInputs.cache
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\bin\Debug\net6.0\ShoppingListLab.exe
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\bin\Debug\net6.0\ShoppingListLab.deps.json
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\bin\Debug\net6.0\ShoppingListLab.runtimeconfig.json
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\bin\Debug\net6.0\ShoppingListLab.dll
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\bin\Debug\net6.0\ShoppingListLab.pdb
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.dll
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\refint\ShoppingListLab.dll
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.pdb
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ShoppingListLab.genruntimeconfig.cache
+M:\GrandCircus\ShoppingListLab\ShoppingListLab\obj\Debug\net6.0\ref\ShoppingListLab.dll
