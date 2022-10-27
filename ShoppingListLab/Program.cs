@@ -41,15 +41,15 @@ void DisplayMenu()
 {
     Console.Clear();
     Console.WriteLine("Here are the items that can be ordered:\n");
-    Console.WriteLine($"   {"#", 3} {"Item", -20} {"Price", 8}");
-    Console.WriteLine($"   {"-".PadRight(3, '-')} {"-".PadRight(20, '-')} {"-".PadRight(8, '-')}");
+    Console.WriteLine($"   {"#", 3} {"Item", -25} {"Price", 8}");
+    Console.WriteLine($"   {"-".PadRight(3, '-')} {"-".PadRight(25, '-')} {"-".PadRight(8, '-')}");
 
     for (int i = 0; i < menuList.Count; i++)
     {
-        Console.Write($"   {i + 1,3} {menuList[i], -20} ");
+        Console.Write($"   {i + 1,3} {menuList[i], -25} ");
     
         if (i < menuList.Count - 1)
-            Console.WriteLine($"   {itemList[menuList[i]], 8:c}");
+            Console.WriteLine($"{itemList[menuList[i]], 8:c}");
         else
             Console.WriteLine();  //this is for the last cancel order line -- no price
     }
@@ -118,7 +118,7 @@ void ShowOrder()
     Console.Clear();
     Console.WriteLine("\nThank you for your order!\n");
 
-    Console.WriteLine($"{"-".PadRight(30, '-')}");
+    Console.WriteLine($"{"-".PadRight(47, '-')}");
     Console.WriteLine("Here are your order details (ordered by price):");
 
     var finalOrder = shoppingCart.Select(x => new KeyValuePair<string, decimal>(x, itemList[x])).OrderBy(x => x.Value);
@@ -126,7 +126,7 @@ void ShowOrder()
     foreach (KeyValuePair<string, decimal> item in finalOrder)
         Console.WriteLine($"     {item.Key, -20} {item.Value, 8:c}");
     Console.WriteLine($"\nOrder Total: {finalOrder.Select(x => x.Value).Sum():c}");
-    Console.WriteLine($"{"-".PadRight(30, '-')}");
+    Console.WriteLine($"{"-".PadRight(47, '-')}");
 
     if (finalOrder.Select(x => x.Key).FirstOrDefault() != finalOrder.Select(x => x.Key).LastOrDefault())
     {
